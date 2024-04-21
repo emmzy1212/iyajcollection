@@ -1,0 +1,148 @@
+#header {
+    background-color: blanchedalmond;
+    background-image: url(images/backgroundflower.jpg);
+  }
+  
+  #header a {
+    background-image: url(images/bg-coming.jpg);
+    border: 2px solid transparent;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    color: white;
+    
+  }
+  
+  #header a:hover {
+    background-color: gold;
+    color: white;
+    border-color: white;
+    transform: scale(1.1);
+  }
+  
+  .wrap {
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+  }
+  
+  .wrap::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: blanchedalmond;
+    opacity: 0;
+    z-index: -1;
+    transition: opacity 0.3s ease;
+  }
+
+  
+  
+  .wrap:hover::before {
+    opacity: 1;
+  }
+  
+  .section-title .title-sub,
+  .section-title .title-1 {
+    transition: color 0.3s ease;
+  }
+  
+  section.wewe {
+    background-image: url(images/backgroundflower.jpg);
+  }
+  
+  /* Base styles */
+section.wrap {
+    background-color: #1e1d2b; /* Deep Sea Purple */
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Hover styles */
+  section.wrap:hover {
+    background-color: #3b3058; /* Darker shade of Deep Sea Purple */
+  }
+
+/* Base styles */
+.p-t-65.p-b-65 {
+    background-color: #1e1d2b; /* Deep Purple */
+    transition: background-color 0.3s ease-in-out;
+    z-index: 1; /* Ensure it's above other elements */
+    
+}
+
+/* Hover styles */
+.p-t-65.p-b-65:hover {
+    background-color: #37354e; /* Darker shade of Deep Purple */
+}
+
+/* Base styles */
+.entry-summary {
+    background-color: white;
+    transition: background-color 0.3s ease-in-out;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Hover styles */
+.entry-summary:hover {
+    background-color: whitesmoke; /* Lighter shade of blanchedalmond */
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+.media-testi {
+    background-color: white;
+    transition: background-color 0.3s ease-in-out;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.media-testi:hover {
+    background-color: whitesmoke; /* Lighter shade of blanchedalmond */
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+
+/* .row-testi {
+    background-color: white;
+    transition: background-color 0.3s ease-in-out;
+    padding: 15px;
+    border-radius: 5px;
+} */
+
+/* .row:hover {
+    background-color: whitesmoke; /* Lighter shade of blanchedalmond */
+    /* transform: scale(1.05); /* Scale up on hover */
+ 
+
+
+
+
+/* Base styles */
+.media__body {
+    background-color: #1e1d2b; /* Deep purple */
+    transition: background-color 0.3s ease-in-out;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+}
+
+/* Hover styles */
+.media__body:hover {
+    background-color: #39374f; /* Darker shade of deep purple */
+    transform: translateY(-5px); /* Move up on hover */
+}
+
+
+/* Base styles */
+.media__title.you {
+    color: #6a0dad; /* Deep purple */
+    transition: color 0.3s ease-in-out;
+}
+
+/* Hover styles */
+.media__title.you:hover {
+    color: #4c0c78; /* Darker shade of deep purple */
+    transform: translateY(-3px); /* Move up on hover */
+}
